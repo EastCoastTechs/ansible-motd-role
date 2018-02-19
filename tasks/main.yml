@@ -1,0 +1,6 @@
+---
+- name: "Executing MOTD plays"
+  template:
+    src: motd.j2
+    dest: /etc/motd
+  tags: ['motd']
